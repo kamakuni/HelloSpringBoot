@@ -5,7 +5,7 @@ import javax.persistence.*
 @Entity
 @Table(name="users")
 data class User(
-        @Id @GeneratedValue
-        val id: Long,
+        @Id
+        val id: Long = 0,
         @Column(nullable = false)
-        val name: String)
+        val name: String = "")
