@@ -1,6 +1,6 @@
 package api.rest.kotlin.service
 
-import api.rest.kotlin.domain.User
+import api.rest.kotlin.model.User
 import org.springframework.beans.factory.annotation.Autowired
 import api.rest.kotlin.repogitory.UserRepository
 import org.springframework.stereotype.Service

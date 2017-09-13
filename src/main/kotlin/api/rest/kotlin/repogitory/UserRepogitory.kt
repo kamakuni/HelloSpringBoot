@@ -1,7 +1,7 @@
 package api.rest.kotlin.repogitory
 
 import org.springframework.stereotype.Repository
-import api.rest.kotlin.domain.User
+import api.rest.kotlin.model.User
 import org.springframework.data.repository.CrudRepository
 
 @Repository
